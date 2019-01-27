@@ -1,0 +1,43 @@
+References:
+Course 1:
+Pluralsight: Working with Graph Algorithms in Python by Janani Ravi
+
+Priority queue in python
+
+
+An adjacency matrix is a common way of represnting a graph
+
+Adjacency sets and adjacency list are the other ways
+
+two fundamental ways of traversing a graph
+ Depth firts and breadth first
+
+ Graph consists of 
+ Vertices (entities) and edges (relationships) 
+
+ A graph that is connected but has no cycle is called tree.
+
+ Three common graph problems:
+    Establish precedence (Topological Sort)
+       Neural network relies on topological sort.
+    Getting from Point A to point B (shortest path algorithm)
+    Covering all nodes in a graph (Minimum spanning tree algorithm)
+
+
+ A topological sort is any ordering of all the graph's vertices that satisfies all precedence relationship.
+
+ In-degree is number of nodes directed to the node.
+
+ in a graph if no node has in-degree=0 the graph has a cycle.
+
+
+ For shortest path algorithm we use Distance table as data structure
+
+
+ Spanning tree algorithm seeks to cover shortest way to connect all nodes
+
+ Prim's algorithm works for connected graphs
+
+ Kruskal's algorithm works even for unconnected graphs
+
+ Kruskal's algorithm is a greedy algorithm that works on a weighted undirected, unconnected Graph.
